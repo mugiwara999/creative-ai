@@ -64,11 +64,30 @@ const Hero = () => {
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
         <button
           onClick={() => scrollToSection('about')}
-          className="bg-[#BFFF00] text-black font-bold px-8 py-4 rounded-lg hover:bg-[#a8e600] transition-all duration-300 animate-bounce-slow shadow-lg shadow-[#BFFF00]/20"
+          className="bg-white text-black font-bold px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 animate-vibrate shadow-lg shadow-white/30"
         >
           Hire Me
         </button>
       </div>
+
+      <style jsx>{`
+        @keyframes vibrate {
+          0%, 100% { transform: translate(0, 0) rotate(0deg); }
+          10% { transform: translate(-2px, -2px) rotate(-1deg); }
+          20% { transform: translate(2px, -2px) rotate(1deg); }
+          30% { transform: translate(-2px, 2px) rotate(-1deg); }
+          40% { transform: translate(2px, 2px) rotate(1deg); }
+          50% { transform: translate(-2px, -2px) rotate(-1deg); }
+          60% { transform: translate(2px, -2px) rotate(1deg); }
+          70% { transform: translate(-2px, 2px) rotate(-1deg); }
+          80% { transform: translate(2px, 2px) rotate(1deg); }
+          90% { transform: translate(-2px, -2px) rotate(-1deg); }
+        }
+        
+        .animate-vibrate {
+          animation: vibrate 0.5s ease-in-out infinite;
+        }
+      `}</style>
     </section>
   );
 };
