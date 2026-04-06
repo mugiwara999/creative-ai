@@ -3,6 +3,21 @@ import { skills } from '../mock';
 import * as LucideIcons from 'lucide-react';
 
 const Skills = () => {
+  const tools = [
+    "Adobe Premiere Pro",
+    "Adobe After Effects",
+    "Canva",
+    "GenAI tools",
+    "VEO",
+    "Kling AI",
+    "Seedance",
+    "Dalle E",
+    "Pika Labs",
+    "Heygen",
+    "Runway",
+    "Higgsfield"
+  ];
+
   return (
     <section id="skills" className="py-24 bg-zinc-950 relative overflow-hidden">
       {/* Background effects */}
@@ -21,7 +36,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {skills.map((skill, index) => {
             const IconComponent = LucideIcons[skill.icon] || LucideIcons.Circle;
             return (
@@ -38,7 +53,43 @@ const Skills = () => {
             );
           })}
         </div>
+
+        {/* Scrolling Tools Section */}
+        <div className="mt-20">
+          <div className="relative overflow-hidden py-8">
+            <div className="flex animate-scroll-left whitespace-nowrap">
+              {/* Duplicate the tools array twice for seamless loop */}
+              {[...tools, ...tools, ...tools].map((tool, index) => (
+                <div
+                  key={index}
+                  className="inline-flex items-center mx-4 px-8 py-4 bg-zinc-900/50 border border-[#BFFF00]/20 rounded-full"
+                >
+                  <span className="text-white font-semibold text-lg">{tool}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
+
+      <style jsx>{`
+        @keyframes scroll-left {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-33.333%);
+          }
+        }
+        
+        .animate-scroll-left {
+          animation: scroll-left 30s linear infinite;
+        }
+        
+        .animate-scroll-left:hover {
+          animation-play-state: paused;
+        }
+      `}</style>
     </section>
   );
 };

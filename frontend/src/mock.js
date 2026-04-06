@@ -156,16 +156,6 @@ export const skills = [
     name: "Motion Graphics",
     description: "Advanced After Effects and Cinema 4D animations",
     icon: "Layers"
-  },
-  {
-    name: "Color Grading",
-    description: "Professional color correction and cinematic looks",
-    icon: "Palette"
-  },
-  {
-    name: "Storytelling",
-    description: "Crafting compelling narratives that resonate",
-    icon: "BookOpen"
   }
 ];
 
