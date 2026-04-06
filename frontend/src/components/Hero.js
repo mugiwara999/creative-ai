@@ -57,22 +57,6 @@ const Hero = () => {
               Let's Collaborate
             </Button>
           </div>
-
-          {/* Stats */}
-          <div className="mt-20 grid grid-cols-3 gap-8 max-w-3xl">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">50+</div>
-              <div className="text-white/60 text-sm md:text-base">Projects Completed</div>
-            </div>
-            <div className="border-l border-[#BFFF00]/20 pl-8">
-              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">10M+</div>
-              <div className="text-white/60 text-sm md:text-base">Total Views</div>
-            </div>
-            <div className="border-l border-[#BFFF00]/20 pl-8">
-              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">30+</div>
-              <div className="text-white/60 text-sm md:text-base">Happy Clients</div>
-            </div>
-          </div>
         </div>
       </div>
 
