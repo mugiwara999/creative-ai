@@ -1,7 +1,66 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { User, Target, Zap } from 'lucide-react';
 
 const About = () => {
+  const [projectsCount, setProjectsCount] = useState(0);
+  const [viewsCount, setViewsCount] = useState(0);
+  const [isVisible, setIsVisible] = useState(false);
+  const statsRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !isVisible) {
+          setIsVisible(true);
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    if (statsRef.current) {
+      observer.observe(statsRef.current);
+    }
+
+    return () => {
+      if (statsRef.current) {
+        observer.unobserve(statsRef.current);
+      }
+    };
+  }, [isVisible]);
+
+  useEffect(() => {
+    if (isVisible) {
+      // Animate Projects Count to 19
+      let projectInterval = setInterval(() => {
+        setProjectsCount((prev) => {
+          if (prev < 19) {
+            return prev + 1;
+          } else {
+            clearInterval(projectInterval);
+            return 19;
+          }
+        });
+      }, 50);
+
+      // Animate Views Count to 50
+      let viewsInterval = setInterval(() => {
+        setViewsCount((prev) => {
+          if (prev < 50) {
+            return prev + 1;
+          } else {
+            clearInterval(viewsInterval);
+            return 50;
+          }
+        });
+      }, 30);
+
+      return () => {
+        clearInterval(projectInterval);
+        clearInterval(viewsInterval);
+      };
+    }
+  }, [isVisible]);
+
   return (
     <section id="about" className="py-24 bg-zinc-950 relative overflow-hidden">
       {/* Background effects */}
@@ -65,18 +124,18 @@ const About = () => {
           </div>
 
           {/* Stats */}
-          <div className="mt-16 grid grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div ref={statsRef} className="mt-16 grid grid-cols-2 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">50+</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">
+                {projectsCount}+
+              </div>
               <div className="text-white/60 text-sm md:text-base">Projects Completed</div>
             </div>
-            <div className="text-center border-x border-[#BFFF00]/20">
-              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">10M+</div>
+            <div className="text-center border-l border-[#BFFF00]/20">
+              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">
+                {viewsCount}+ Million
+              </div>
               <div className="text-white/60 text-sm md:text-base">Total Views</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">30+</div>
-              <div className="text-white/60 text-sm md:text-base">Happy Clients</div>
             </div>
           </div>
         </div>
