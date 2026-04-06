@@ -124,22 +124,63 @@ const About = () => {
           </div>
 
           {/* Stats */}
-          <div ref={statsRef} className="mt-16 grid grid-cols-2 gap-8 max-w-3xl mx-auto">
+          <div ref={statsRef} className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-center">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">
                 {projectsCount}+
               </div>
               <div className="text-white/60 text-sm md:text-base">Projects Completed</div>
             </div>
-            <div className="text-center border-l border-[#BFFF00]/20">
+            <div className="text-center border-none md:border-x border-[#BFFF00]/20 md:px-4">
               <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">
                 {viewsCount}+ Million
               </div>
               <div className="text-white/60 text-sm md:text-base">Total Views</div>
             </div>
+            <div className="text-center">
+              <button
+                onClick={() => {
+                  const contactSection = document.getElementById('contact');
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="inline-flex items-center gap-2 bg-[#BFFF00] text-black font-bold px-6 py-4 rounded-lg hover:bg-[#a8e600] transition-all duration-300 animate-float group"
+              >
+                <svg 
+                  className="w-5 h-5 group-hover:scale-110 transition-transform" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  viewBox="0 0 24 24"
+                >
+                  <path 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    strokeWidth={2} 
+                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" 
+                  />
+                </svg>
+                Book a 1:1 Session
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes float {
+          0%, 100% {
+            transform: translateY(0px);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
+        }
+        
+        .animate-float {
+          animation: float 3s ease-in-out infinite;
+        }
+      `}</style>
     </section>
   );
 };

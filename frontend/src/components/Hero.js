@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, ArrowDown } from 'lucide-react';
+import { Play } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Hero = () => {
@@ -60,9 +60,14 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ArrowDown className="text-[#BFFF00]" size={32} />
+      {/* Hire Me button */}
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
+        <button
+          onClick={() => scrollToSection('about')}
+          className="bg-[#BFFF00] text-black font-bold px-8 py-4 rounded-lg hover:bg-[#a8e600] transition-all duration-300 animate-bounce-slow shadow-lg shadow-[#BFFF00]/20"
+        >
+          Hire Me
+        </button>
       </div>
     </section>
   );
