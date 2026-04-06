@@ -1,0 +1,85 @@
+import React from 'react';
+import { Play, ArrowDown } from 'lucide-react';
+import { Button } from './ui/button';
+
+const Hero = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
+      {/* Background gradient effect */}
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-black to-[#BFFF00]/5"></div>
+      
+      {/* Animated grid */}
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(191,255,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(191,255,0,0.03)_1px,transparent_1px)] bg-[size:100px_100px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,black,transparent)]"></div>
+
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="max-w-5xl mx-auto text-center">
+          {/* Main heading */}
+          <div className="mb-6 inline-block">
+            <span className="text-[#BFFF00] text-sm font-semibold tracking-wider uppercase px-4 py-2 bg-[#BFFF00]/10 rounded-full border border-[#BFFF00]/30">
+              GenAI Creative Artist
+            </span>
+          </div>
+          
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
+            <span className="text-white">Crafting </span>
+            <span className="text-[#BFFF00]">AI-Powered</span>
+            <br />
+            <span className="text-white">Visual Stories</span>
+          </h1>
+
+          <p className="text-white/60 text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
+            Transforming imagination into reality through cutting-edge AI technology, 
+            cinematic storytelling, and social media mastery.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              onClick={() => scrollToSection('featured')}
+              className="bg-[#BFFF00] text-black hover:bg-[#a8e600] font-semibold px-8 py-6 text-lg group"
+            >
+              <Play className="mr-2 group-hover:scale-110 transition-transform" size={20} />
+              Watch My Work
+            </Button>
+            <Button
+              onClick={() => scrollToSection('contact')}
+              variant="outline"
+              className="border-[#BFFF00] text-[#BFFF00] hover:bg-[#BFFF00]/10 font-semibold px-8 py-6 text-lg"
+            >
+              Let's Collaborate
+            </Button>
+          </div>
+
+          {/* Stats */}
+          <div className="mt-20 grid grid-cols-3 gap-8 max-w-3xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">50+</div>
+              <div className="text-white/60 text-sm md:text-base">Projects Completed</div>
+            </div>
+            <div className="text-center border-x border-[#BFFF00]/20">
+              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">10M+</div>
+              <div className="text-white/60 text-sm md:text-base">Total Views</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-[#BFFF00] mb-2">30+</div>
+              <div className="text-white/60 text-sm md:text-base">Happy Clients</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <ArrowDown className="text-[#BFFF00]" size={32} />
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
