@@ -24,7 +24,10 @@ const About = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group">
+            <div 
+              onClick={() => window.open('#who-i-am', '_blank')}
+              className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group cursor-pointer hover:scale-105"
+            >
               <div className="bg-[#BFFF00]/10 w-14 h-14 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#BFFF00]/20 transition-colors duration-300">
                 <User className="text-[#BFFF00]" size={28} />
               </div>
@@ -34,7 +37,10 @@ const About = () => {
               </p>
             </div>
 
-            <div className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group">
+            <div 
+              onClick={() => window.open('#what-i-do', '_blank')}
+              className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group cursor-pointer hover:scale-105"
+            >
               <div className="bg-[#BFFF00]/10 w-14 h-14 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#BFFF00]/20 transition-colors duration-300">
                 <Target className="text-[#BFFF00]" size={28} />
               </div>
@@ -44,7 +50,10 @@ const About = () => {
               </p>
             </div>
 
-            <div className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group">
+            <div 
+              onClick={() => window.open('#why-choose-me', '_blank')}
+              className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group cursor-pointer hover:scale-105"
+            >
               <div className="bg-[#BFFF00]/10 w-14 h-14 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#BFFF00]/20 transition-colors duration-300">
                 <Zap className="text-[#BFFF00]" size={28} />
               </div>
