@@ -74,11 +74,10 @@ const About = () => {
               About Me
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
-              Redefining Creativity with <span className="text-[#BFFF00]">AI</span>
+              Turning Ideas into <span className="text-[#BFFF00]">Visual Stories</span>
             </h2>
             <p className="text-white/60 text-lg max-w-3xl mx-auto leading-relaxed">
-              I'm a creative technologist pushing the boundaries of what's possible with AI-powered video production. 
-              Combining artistic vision with cutting-edge generative AI tools to create captivating visual experiences.
+              AI Video Director specializing in cinematic content that connects with audiences
             </p>
           </div>
 
@@ -92,7 +91,7 @@ const About = () => {
               </div>
               <h3 className="text-white font-bold text-xl mb-3">Who I Am</h3>
               <p className="text-white/60 leading-relaxed">
-                A passionate GenAI artist and video editor with expertise in transforming ideas into stunning visual narratives that captivate audiences.
+                I'm Thilak Varma, and I work as an AI Video Director. I like turning ideas into visual stories using AI — from shaping the concept to building it into a complete video. Most of my work focuses on making content that feels cinematic but still connects with people.
               </p>
             </div>
 
@@ -105,7 +104,7 @@ const About = () => {
               </div>
               <h3 className="text-white font-bold text-xl mb-3">What I Do</h3>
               <p className="text-white/60 leading-relaxed">
-                Specialize in AI-powered video production, social media content creation, and cinematic storytelling using the latest generative AI technologies.
+                I create AI-driven videos from idea to final output — including storyboarding, visual generation, editing, and design. I also work on social media strategy, SEO, lead generation, and content growth to make sure the content actually performs.
               </p>
             </div>
 
@@ -118,7 +117,7 @@ const About = () => {
               </div>
               <h3 className="text-white font-bold text-xl mb-3">Why Choose Me</h3>
               <p className="text-white/60 leading-relaxed">
-                I deliver high-quality, engaging content that drives results. Fast turnarounds, innovative approaches, and a deep understanding of social media trends.
+                I focus on making content that not only looks good but also connects with the audience. I've worked with different clients and managed social media pages, so I understand what works and what doesn't. I'm consistent with my work, quick with delivery, and always try to keep the storytelling clear and engaging.
               </p>
             </div>
           </div>
