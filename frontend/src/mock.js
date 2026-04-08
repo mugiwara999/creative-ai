@@ -34,55 +34,55 @@ export const featuredWorks = [
 export const cinematicWorks = [
   {
     id: 4,
-    title: "Neon Nights",
-    description: "A cyberpunk story told through AI-generated visuals",
+    title: "Cinematic Project 1",
+    description: "A captivating visual story powered by AI creativity",
     category: "Cinematic",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    video: "https://drive.google.com/file/d/1oOrkwgWzAUigJz1zSXWyGCyWnzyUqB0l/preview",
     thumbnail: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
     duration: "5:30"
   },
   {
     id: 5,
-    title: "Quantum Dreams",
-    description: "Exploring the intersection of quantum physics and digital art",
+    title: "Cinematic Project 2",
+    description: "Exploring creative narratives through AI-powered visuals",
     category: "Cinematic",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    video: "https://drive.google.com/file/d/1zmRSD1KphyRP-rH5cvYHc6oVHByeHg9g/preview",
     thumbnail: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
     duration: "4:50"
   },
   {
     id: 6,
-    title: "Digital Awakening",
-    description: "The birth of consciousness in the machine",
+    title: "Cinematic Project 3",
+    description: "Stunning cinematography meets artificial intelligence",
     category: "Cinematic",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    video: "https://drive.google.com/file/d/1fQWBQLqLL7bS6MLV9dkpdd0IOA6CfNkk/preview",
     thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=450&fit=crop",
     duration: "6:15"
   },
   {
     id: 7,
-    title: "Ethereal Realms",
-    description: "Journey through otherworldly AI-crafted dimensions",
+    title: "Cinematic Project 4",
+    description: "Journey through creative AI-generated dimensions",
     category: "Cinematic",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    video: "https://drive.google.com/file/d/126oMOPW2pxcCHBNdiy2v1uRLN0jIhNlQ/preview",
     thumbnail: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=450&fit=crop",
     duration: "3:45"
   },
   {
     id: 8,
-    title: "Future Memories",
-    description: "Nostalgia for a future that never was",
+    title: "Cinematic Project 5",
+    description: "Innovative storytelling through generative AI",
     category: "Cinematic",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    video: "https://drive.google.com/file/d/1Kswv4vaUeaze2kwb8H48eXmgsKi9cbn9/preview",
     thumbnail: "https://images.unsplash.com/photo-1462206092226-f46025ffe607?w=800&h=450&fit=crop",
     duration: "5:00"
   },
   {
     id: 9,
-    title: "Synthetic Symphony",
-    description: "Visual music created by artificial intelligence",
+    title: "Cinematic Project 6",
+    description: "Visual masterpiece crafted with AI technology",
     category: "Cinematic",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+    video: "https://drive.google.com/file/d/1zFVSrqHduj8GVwNF2byxufYGCTcIkspV/preview",
     thumbnail: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=450&fit=crop",
     duration: "4:20"
   }
