@@ -18,39 +18,69 @@ const Feedbacks = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {testimonials.map((testimonial) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {testimonials.map((testimonial, index) => (
             <div
               key={testimonial.id}
-              className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group"
+              className="bg-zinc-900/50 p-6 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/40 transition-all duration-500 group hover:scale-105 hover:shadow-lg hover:shadow-[#BFFF00]/10 animate-fade-in-up"
+              style={{
+                animationDelay: `${index * 100}ms`
+              }}
             >
-              <Quote className="text-[#BFFF00]/30 mb-4" size={40} />
+              <Quote className="text-[#BFFF00]/30 mb-3 group-hover:text-[#BFFF00]/50 transition-colors duration-300 group-hover:rotate-12" size={32} />
               
-              <div className="flex gap-1 mb-4">
+              <div className="flex gap-1 mb-3">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="text-[#BFFF00] fill-[#BFFF00]" size={18} />
+                  <Star 
+                    key={i} 
+                    className="text-[#BFFF00] fill-[#BFFF00] group-hover:scale-110 transition-transform duration-300" 
+                    size={14}
+                    style={{
+                      transitionDelay: `${i * 50}ms`
+                    }}
+                  />
                 ))}
               </div>
 
-              <p className="text-white/80 text-lg leading-relaxed mb-6">
+              <p className="text-white/80 text-sm leading-relaxed mb-5">
                 "{testimonial.content}"
               </p>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-3">
                 <img
                   src={testimonial.avatar}
                   alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover border-2 border-[#BFFF00]/30"
+                  className="w-10 h-10 rounded-full object-cover border-2 border-[#BFFF00]/30 group-hover:border-[#BFFF00]/60 transition-all duration-300 group-hover:scale-110"
                 />
                 <div>
-                  <div className="text-white font-semibold">{testimonial.name}</div>
-                  <div className="text-white/60 text-sm">{testimonial.role}</div>
+                  <div className="text-white font-semibold text-sm">{testimonial.name}</div>
+                  {testimonial.role && (
+                    <div className="text-white/60 text-xs">{testimonial.role}</div>
+                  )}
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        
+        .animate-fade-in-up {
+          animation: fade-in-up 0.6s ease-out forwards;
+          opacity: 0;
+        }
+      `}</style>
     </section>
   );
 };

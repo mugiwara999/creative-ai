@@ -192,34 +192,42 @@ export const skills = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Chen",
-    role: "Creative Director, Pixel Studios",
-    content: "Absolutely phenomenal work! The AI-generated videos exceeded all expectations. The attention to detail and creative vision is unmatched.",
-    avatar: "https://i.pravatar.cc/150?img=1",
+    name: "Ravindra",
+    role: "",
+    content: "Honestly, I wasn't sure how AI videos would turn out, but the final result was really impressive. The visuals felt clean and the storytelling made sense. It actually performed better than our usual content",
+    avatar: "https://i.pravatar.cc/150?img=12",
     rating: 5
   },
   {
     id: 2,
-    name: "Marcus Rodriguez",
-    role: "Brand Manager, TechFlow",
-    content: "Our campaign performance skyrocketed after working together. The blend of AI technology and creative storytelling is truly next-level.",
-    avatar: "https://i.pravatar.cc/150?img=2",
+    name: "Jessica Miller",
+    role: "",
+    content: "What I liked the most was how he understood the idea and turned it into something visual without overcomplicating it. The workflow was smooth, and the final video looked very polished.",
+    avatar: "https://i.pravatar.cc/150?img=5",
     rating: 5
   },
   {
     id: 3,
-    name: "Emily Watson",
-    role: "CEO, Vibe Marketing",
-    content: "A true innovator in the GenAI space. Delivered stunning content that perfectly captured our brand vision. Highly recommended!",
-    avatar: "https://i.pravatar.cc/150?img=3",
+    name: "Ahmed Khan",
+    role: "",
+    content: "We needed content quickly for a campaign, and he delivered on time without compromising quality. The visuals were engaging and worked well for our audience.",
+    avatar: "https://i.pravatar.cc/150?img=13",
     rating: 5
   },
   {
     id: 4,
-    name: "David Kim",
-    role: "Social Media Lead, GrowthHive",
-    content: "The social media content generated massive engagement. Professional, creative, and always ahead of trends.",
-    avatar: "https://i.pravatar.cc/150?img=4",
+    name: "Priya Reddy",
+    role: "",
+    content: "The content felt natural and not forced, which is rare with AI-based videos. He was easy to work with and open to feedback throughout the process.",
+    avatar: "https://i.pravatar.cc/150?img=9",
+    rating: 5
+  },
+  {
+    id: 5,
+    name: "Faisal Al-Harbi",
+    role: "",
+    content: "Very professional and reliable. The videos were simple, clean, and did exactly what we needed for our campaign.",
+    avatar: "https://i.pravatar.cc/150?img=14",
     rating: 5
   }
 ];
