@@ -173,7 +173,7 @@ export const skills = [
     icon: "Film"
   },
   {
-    name: "Social Media Marketing",
+    name: "Social Media Management",
     description: "Creating viral content optimized for all platforms",
     icon: "Share2"
   },
@@ -183,9 +183,9 @@ export const skills = [
     icon: "Sparkles"
   },
   {
-    name: "Motion Graphics",
-    description: "Advanced After Effects and Cinema 4D animations",
-    icon: "Layers"
+    name: "Lead Generation & Optimization",
+    description: "SEO strategy and content growth that drives results",
+    icon: "TrendingUp"
   }
 ];
 
