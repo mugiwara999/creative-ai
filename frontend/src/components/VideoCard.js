@@ -5,6 +5,9 @@ import { Dialog, DialogContent } from './ui/dialog';
 const VideoCard = ({ project }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  // Check if it's a Google Drive link
+  const isGoogleDrive = project.video.includes('drive.google.com');
+
   return (
     <>
       <div
@@ -66,14 +69,23 @@ const VideoCard = ({ project }) => {
             >
               <X size={32} />
             </button>
-            <video
-              src={project.video}
-              controls
-              autoPlay
-              className="w-full rounded-lg"
-            >
-              Your browser does not support the video tag.
-            </video>
+            {isGoogleDrive ? (
+              <iframe
+                src={project.video}
+                className="w-full aspect-video rounded-lg"
+                allow="autoplay"
+                allowFullScreen
+              />
+            ) : (
+              <video
+                src={project.video}
+                controls
+                autoPlay
+                className="w-full rounded-lg"
+              >
+                Your browser does not support the video tag.
+              </video>
+            )}
             <div className="p-6">
               <h2 className="text-white text-2xl font-bold mb-2">{project.title}</h2>
               <p className="text-white/70">{project.description}</p>
