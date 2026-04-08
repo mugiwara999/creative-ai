@@ -28,6 +28,36 @@ export const featuredWorks = [
     thumbnail: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=450&fit=crop",
     duration: "4:15",
     tools: ["Sora", "Premiere Pro", "Topaz AI"]
+  },
+  {
+    id: 4,
+    title: "Featured Project 4",
+    description: "Innovative storytelling powered by artificial intelligence",
+    category: "Featured",
+    video: "https://drive.google.com/file/d/1nWWKj6qYLclhepyKa0TQscJhxOGhm_B-/preview",
+    thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&h=450&fit=crop",
+    duration: "3:00",
+    tools: ["Kling AI", "Premiere Pro", "GenAI"]
+  },
+  {
+    id: 5,
+    title: "Featured Project 5",
+    description: "Creative mastery through AI-driven visual effects",
+    category: "Featured",
+    video: "https://drive.google.com/file/d/1EcNxPMWA8OCEqWb4zzgyLeDYCBMa4xfJ/preview",
+    thumbnail: "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=800&h=450&fit=crop",
+    duration: "2:30",
+    tools: ["Pika Labs", "After Effects", "VEO"]
+  },
+  {
+    id: 6,
+    title: "Featured Project 6",
+    description: "Stunning visuals crafted with next-gen AI technology",
+    category: "Featured",
+    video: "https://drive.google.com/file/d/1N5S-xgDpArlUb8vwDvEGKRHdASiqXBjg/preview",
+    thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=450&fit=crop",
+    duration: "3:45",
+    tools: ["Runway", "Heygen", "Seedance"]
   }
 ];
 
