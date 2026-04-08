@@ -24,8 +24,8 @@ const VideoCard = ({ project }) => {
           
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <div className="bg-[#BFFF00] rounded-full p-4 transform group-hover:scale-110 transition-transform duration-300">
-              <Play className="text-black" size={32} fill="black" />
+            <div className="bg-[#BFFF00] rounded-full p-3 transform group-hover:scale-110 transition-transform duration-300">
+              <Play className="text-black" size={20} fill="black" />
             </div>
           </div>
 
@@ -61,18 +61,18 @@ const VideoCard = ({ project }) => {
 
       {/* Video Modal */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="max-w-5xl w-full bg-black border-[#BFFF00]/30 p-0">
+        <DialogContent className="max-w-4xl w-full bg-black border-[#BFFF00]/30 p-0">
           <div className="relative">
             <button
               onClick={() => setIsModalOpen(false)}
               className="absolute -top-12 right-0 text-white hover:text-[#BFFF00] transition-colors z-50"
             >
-              <X size={32} />
+              <X size={28} />
             </button>
             {isGoogleDrive ? (
               <iframe
                 src={project.video}
-                className="w-full aspect-video rounded-lg"
+                className="w-full h-[500px] rounded-lg"
                 allow="autoplay"
                 allowFullScreen
               />
@@ -81,14 +81,14 @@ const VideoCard = ({ project }) => {
                 src={project.video}
                 controls
                 autoPlay
-                className="w-full rounded-lg"
+                className="w-full max-h-[500px] rounded-lg"
               >
                 Your browser does not support the video tag.
               </video>
             )}
             <div className="p-6">
-              <h2 className="text-white text-2xl font-bold mb-2">{project.title}</h2>
-              <p className="text-white/70">{project.description}</p>
+              <h2 className="text-white text-xl font-bold mb-2">{project.title}</h2>
+              <p className="text-white/70 text-sm">{project.description}</p>
             </div>
           </div>
         </DialogContent>
