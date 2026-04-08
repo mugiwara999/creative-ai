@@ -5,7 +5,7 @@ export const featuredWorks = [
     description: "A mesmerizing showcase of AI-powered creative excellence",
     category: "Featured",
     video: "https://drive.google.com/file/d/17LYUW46fTIlE3SSCfEg5mBPaj1a6UA9y/preview",
-    thumbnail: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/h87961bf_freepik_a-cinematic-ultrarealisti_2744585241%20%281%29.png",
     duration: "2:45",
     tools: ["Runway ML", "After Effects", "Premiere Pro"]
   },
@@ -15,7 +15,7 @@ export const featuredWorks = [
     description: "Cutting-edge visual storytelling through generative AI",
     category: "Featured",
     video: "https://drive.google.com/file/d/1fFyWRxIld67q9v4eFhYo90vWS9gOrxyc/preview",
-    thumbnail: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/45vd62ou_freepik_a-cinematic-ultrarealisti_2744598141.png",
     duration: "3:20",
     tools: ["Midjourney", "DaVinci Resolve", "Stable Diffusion"]
   },
@@ -25,7 +25,7 @@ export const featuredWorks = [
     description: "Premium AI-generated content that captivates audiences",
     category: "Featured",
     video: "https://drive.google.com/file/d/1K62xZLDLS6JHGXz_YHSuulhzVjK53aV0/preview",
-    thumbnail: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/u6r5fmyx_freepik_a-topdown-cinematic-ultra_2744599979.png",
     duration: "4:15",
     tools: ["Sora", "Premiere Pro", "Topaz AI"]
   },
@@ -35,7 +35,7 @@ export const featuredWorks = [
     description: "Innovative storytelling powered by artificial intelligence",
     category: "Featured",
     video: "https://drive.google.com/file/d/1nWWKj6qYLclhepyKa0TQscJhxOGhm_B-/preview",
-    thumbnail: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/0r1nvnzl_freepik_an-ultrarealistic-cinemat_2744602079.png",
     duration: "3:00",
     tools: ["Kling AI", "Premiere Pro", "GenAI"]
   },
@@ -45,7 +45,7 @@ export const featuredWorks = [
     description: "Creative mastery through AI-driven visual effects",
     category: "Featured",
     video: "https://drive.google.com/file/d/1EcNxPMWA8OCEqWb4zzgyLeDYCBMa4xfJ/preview",
-    thumbnail: "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/gjxa30gb_freepik_a-cinematic-ultrarealisti_2744612582.png",
     duration: "2:30",
     tools: ["Pika Labs", "After Effects", "VEO"]
   },
