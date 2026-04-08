@@ -39,23 +39,9 @@ const VideoCard = ({ project }) => {
 
         {/* Content */}
         <div className="p-5">
-          <h3 className="text-white font-bold text-lg mb-2 group-hover:text-[#BFFF00] transition-colors duration-300">
+          <h3 className="text-white font-bold text-lg group-hover:text-[#BFFF00] transition-colors duration-300">
             {project.title}
           </h3>
-          <p className="text-white/60 text-sm line-clamp-2">{project.description}</p>
-          
-          {project.tools && (
-            <div className="flex flex-wrap gap-2 mt-3">
-              {project.tools.map((tool, index) => (
-                <span
-                  key={index}
-                  className="text-xs bg-[#BFFF00]/10 text-[#BFFF00] px-2 py-1 rounded border border-[#BFFF00]/30"
-                >
-                  {tool}
-                </span>
-              ))}
-            </div>
-          )}
         </div>
       </div>
 
@@ -87,8 +73,7 @@ const VideoCard = ({ project }) => {
               </video>
             )}
             <div className="p-6">
-              <h2 className="text-white text-xl font-bold mb-2">{project.title}</h2>
-              <p className="text-white/70 text-sm">{project.description}</p>
+              <h2 className="text-white text-xl font-bold">{project.title}</h2>
             </div>
           </div>
         </DialogContent>
