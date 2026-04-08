@@ -81,6 +81,18 @@ const About = () => {
             </p>
           </div>
 
+          {/* Profile Photo */}
+          <div className="flex justify-center mb-12">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-[#BFFF00]/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-300"></div>
+              <img
+                src="https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/wwjpypvu_WhatsApp%20Image%202026-04-09%20at%201.26.05%20AM%20%281%29.jpeg"
+                alt="Thilak Varma - AI Video Director"
+                className="relative w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-[#BFFF00]/30 group-hover:border-[#BFFF00]/60 transition-all duration-300 shadow-lg shadow-[#BFFF00]/20"
+              />
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div 
               onClick={() => window.open('#who-i-am', '_blank')}
