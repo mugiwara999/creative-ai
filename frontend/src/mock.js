@@ -168,8 +168,8 @@ export const creativeAds = [
 
 export const skills = [
   {
-    name: "Video Editing",
-    description: "Expert in Premiere Pro, DaVinci Resolve, and Final Cut Pro",
+    name: "Motion Graphics",
+    description: "Expert in After Effects, CapCut, Canva",
     icon: "Film"
   },
   {

@@ -60,10 +60,10 @@ const FeaturedWorks = () => {
       <style jsx>{`
         @keyframes scroll-right {
           0% {
-            transform: translateX(-33.333%);
+            transform: translateX(0);
           }
           100% {
-            transform: translateX(0);
+            transform: translateX(33.333%);
           }
         }
         

@@ -17,9 +17,6 @@ const CinematicWorks = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Storytelling Through <span className="text-[#BFFF00]">Cinematic Vision</span>
           </h2>
-          <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Immersive narratives crafted with AI-powered cinematography and visual effects
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

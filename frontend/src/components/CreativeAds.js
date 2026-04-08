@@ -17,9 +17,6 @@ const CreativeAds = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             High-Impact <span className="text-[#BFFF00]">Marketing Content</span>
           </h2>
-          <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Attention-grabbing ads designed to convert and engage on social media platforms
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

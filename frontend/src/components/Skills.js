@@ -31,9 +31,6 @@ const Skills = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
             Tools of the <span className="text-[#BFFF00]">Trade</span>
           </h2>
-          <p className="text-white/60 text-lg max-w-2xl mx-auto">
-            Mastering the latest AI technologies and creative tools to bring your vision to life
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">

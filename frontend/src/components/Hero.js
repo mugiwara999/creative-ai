@@ -19,15 +19,15 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[linear-gradient(rgba(191,255,0,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(191,255,0,0.03)_1px,transparent_1px)] bg-[size:100px_100px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,black,transparent)]"></div>
 
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-6xl">
+        <div className="max-w-6xl mx-auto text-center">
           {/* Main heading */}
-          <div className="mb-6">
+          <div className="mb-6 inline-block">
             <span className="text-[#BFFF00] text-sm font-semibold tracking-wider uppercase px-4 py-2 bg-[#BFFF00]/10 rounded-full border border-[#BFFF00]/30">
               GenAI Creative Artist
             </span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight max-w-4xl">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight max-w-4xl mx-auto">
             <span className="text-white">What </span>
             <span className="text-[#BFFF00]">Electricity</span>
             <span className="text-white"> Was to Industry,</span>
@@ -37,11 +37,11 @@ const Hero = () => {
             <span className="text-[#BFFF00]">Creativity</span>
           </h1>
 
-          <p className="text-white/70 text-lg md:text-xl mb-10 max-w-3xl leading-relaxed">
+          <p className="text-white/70 text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
             AI Creative Ads • Cinematic Shorts • Visual Storyboarding • Content Strategy
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 items-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               onClick={() => scrollToSection('featured')}
               className="bg-[#BFFF00] text-black hover:bg-[#a8e600] font-semibold px-8 py-6 text-lg group"
@@ -64,22 +64,20 @@ const Hero = () => {
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
         <button
           onClick={() => scrollToSection('about')}
-          className="bg-white text-black font-semibold px-6 py-3 text-sm rounded-lg hover:bg-gray-100 transition-all duration-300 animate-vibrate shadow-lg shadow-white/20"
+          className="bg-white text-black font-semibold px-6 py-3 text-sm rounded-lg hover:bg-gray-100 transition-all duration-300 animate-bounce-smooth shadow-lg shadow-white/20"
         >
           Hire Me
         </button>
       </div>
 
       <style jsx>{`
-        @keyframes vibrate {
-          0%, 100% { transform: translate(0, 0); }
-          25% { transform: translate(-0.5px, -0.5px); }
-          50% { transform: translate(0.5px, -0.5px); }
-          75% { transform: translate(-0.5px, 0.5px); }
+        @keyframes bounce-smooth {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-15px); }
         }
         
-        .animate-vibrate {
-          animation: vibrate 0.3s ease-in-out infinite;
+        .animate-bounce-smooth {
+          animation: bounce-smooth 2s ease-in-out infinite;
         }
       `}</style>
     </section>
