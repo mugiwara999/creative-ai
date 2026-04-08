@@ -1,14 +1,13 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
+import { Linkedin, Mail, Heart, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Mail, href: '#', label: 'Email' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/thilakvarma/', label: 'LinkedIn' },
+    { icon: Instagram, href: 'https://www.instagram.com/alwaysthilakvarma?igsh=YXAwemp4YmZiczIw', label: 'Instagram' },
+    { icon: Mail, href: 'mailto:thilakvarma003@gmail.com', label: 'Email' },
   ];
 
   return (
