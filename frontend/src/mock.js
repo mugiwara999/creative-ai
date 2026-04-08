@@ -68,7 +68,7 @@ export const cinematicWorks = [
     description: "A captivating visual story powered by AI creativity",
     category: "Cinematic",
     video: "https://drive.google.com/file/d/1oOrkwgWzAUigJz1zSXWyGCyWnzyUqB0l/preview",
-    thumbnail: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/cay8i7ln_freepik_a-cinematic-ultrarealisti_2744727206.png",
     duration: "5:30"
   },
   {
@@ -77,7 +77,7 @@ export const cinematicWorks = [
     description: "Exploring creative narratives through AI-powered visuals",
     category: "Cinematic",
     video: "https://drive.google.com/file/d/1zmRSD1KphyRP-rH5cvYHc6oVHByeHg9g/preview",
-    thumbnail: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/lg4bhp8s_freepik_a-cinematic-ultrarealisti_2744729004.png",
     duration: "4:50"
   },
   {
@@ -86,7 +86,7 @@ export const cinematicWorks = [
     description: "Stunning cinematography meets artificial intelligence",
     category: "Cinematic",
     video: "https://drive.google.com/file/d/1fQWBQLqLL7bS6MLV9dkpdd0IOA6CfNkk/preview",
-    thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/2a1yc8y3_freepik_a-cinematic-ultrarealisti_2744772076%20%281%29.png",
     duration: "6:15"
   },
   {
@@ -95,7 +95,7 @@ export const cinematicWorks = [
     description: "Journey through creative AI-generated dimensions",
     category: "Cinematic",
     video: "https://drive.google.com/file/d/126oMOPW2pxcCHBNdiy2v1uRLN0jIhNlQ/preview",
-    thumbnail: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/5r01czce_freepik_a-cinematic-ultrarealisti_2744739154.png",
     duration: "3:45"
   },
   {
@@ -104,7 +104,7 @@ export const cinematicWorks = [
     description: "Innovative storytelling through generative AI",
     category: "Cinematic",
     video: "https://drive.google.com/file/d/1Kswv4vaUeaze2kwb8H48eXmgsKi9cbn9/preview",
-    thumbnail: "https://images.unsplash.com/photo-1462206092226-f46025ffe607?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/hazbgrxn_freepik_a-cinematic-ultrarealisti_2744741239.png",
     duration: "5:00"
   },
   {
