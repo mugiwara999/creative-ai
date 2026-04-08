@@ -47,7 +47,7 @@ const VideoCard = ({ project }) => {
 
       {/* Video Modal */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-        <DialogContent className="max-w-4xl w-full bg-black border-[#BFFF00]/30 p-0">
+        <DialogContent className="max-w-3xl w-full bg-black border-[#BFFF00]/30 p-0">
           <div className="relative">
             <button
               onClick={() => setIsModalOpen(false)}
@@ -58,7 +58,7 @@ const VideoCard = ({ project }) => {
             {isGoogleDrive ? (
               <iframe
                 src={project.video}
-                className="w-full h-[500px] rounded-lg"
+                className="w-full h-[400px] rounded-lg"
                 allow="autoplay"
                 allowFullScreen
               />
@@ -67,13 +67,13 @@ const VideoCard = ({ project }) => {
                 src={project.video}
                 controls
                 autoPlay
-                className="w-full max-h-[500px] rounded-lg"
+                className="w-full max-h-[400px] rounded-lg"
               >
                 Your browser does not support the video tag.
               </video>
             )}
-            <div className="p-6">
-              <h2 className="text-white text-xl font-bold">{project.title}</h2>
+            <div className="p-4">
+              <h2 className="text-white text-lg font-bold">{project.title}</h2>
             </div>
           </div>
         </DialogContent>
