@@ -58,17 +58,17 @@ const FeaturedWorks = () => {
       </div>
 
       <style jsx>{`
-        @keyframes scroll-right {
+        @keyframes scroll-left {
           0% {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(33.333%);
+            transform: translateX(-33.333%);
           }
         }
         
         .animate-scroll-right {
-          animation: scroll-right 25s linear infinite;
+          animation: scroll-left 25s linear infinite;
         }
         
         .animate-scroll-right:hover {

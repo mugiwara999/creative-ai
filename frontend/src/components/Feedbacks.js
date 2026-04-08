@@ -46,18 +46,11 @@ const Feedbacks = () => {
                 "{testimonial.content}"
               </p>
 
-              <div className="flex items-center gap-3">
-                <img
-                  src={testimonial.avatar}
-                  alt={testimonial.name}
-                  className="w-10 h-10 rounded-full object-cover border-2 border-[#BFFF00]/30 group-hover:border-[#BFFF00]/60 transition-all duration-300 group-hover:scale-110"
-                />
-                <div>
-                  <div className="text-white font-semibold text-sm">{testimonial.name}</div>
-                  {testimonial.role && (
-                    <div className="text-white/60 text-xs">{testimonial.role}</div>
-                  )}
-                </div>
+              <div>
+                <div className="text-white font-semibold text-sm">{testimonial.name}</div>
+                {testimonial.role && (
+                  <div className="text-white/60 text-xs">{testimonial.role}</div>
+                )}
               </div>
             </div>
           ))}
