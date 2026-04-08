@@ -1,30 +1,30 @@
 export const featuredWorks = [
   {
     id: 1,
-    title: "AI Dreamscape Journey",
-    description: "A mesmerizing exploration of AI-generated surreal landscapes set to cinematic music",
+    title: "Featured Project 1",
+    description: "A mesmerizing showcase of AI-powered creative excellence",
     category: "Featured",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    video: "https://drive.google.com/file/d/17LYUW46fTIlE3SSCfEg5mBPaj1a6UA9y/preview",
     thumbnail: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&h=450&fit=crop",
     duration: "2:45",
     tools: ["Runway ML", "After Effects", "Premiere Pro"]
   },
   {
     id: 2,
-    title: "Neural Fashion Film",
-    description: "High-fashion meets artificial intelligence in this avant-garde visual experience",
+    title: "Featured Project 2",
+    description: "Cutting-edge visual storytelling through generative AI",
     category: "Featured",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    video: "https://drive.google.com/file/d/1fFyWRxIld67q9v4eFhYo90vWS9gOrxyc/preview",
     thumbnail: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=450&fit=crop",
     duration: "3:20",
     tools: ["Midjourney", "DaVinci Resolve", "Stable Diffusion"]
   },
   {
     id: 3,
-    title: "Synthetic Reality",
-    description: "Blurring the lines between reality and AI-generated worlds",
+    title: "Featured Project 3",
+    description: "Premium AI-generated content that captivates audiences",
     category: "Featured",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    video: "https://drive.google.com/file/d/1K62xZLDLS6JHGXz_YHSuulhzVjK53aV0/preview",
     thumbnail: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=450&fit=crop",
     duration: "4:15",
     tools: ["Sora", "Premiere Pro", "Topaz AI"]
@@ -91,26 +91,26 @@ export const cinematicWorks = [
 export const creativeAds = [
   {
     id: 10,
-    title: "Tech Launch Campaign",
-    description: "Dynamic product reveal using AI-powered motion graphics",
+    title: "Creative Ad 1",
+    description: "Dynamic marketing content powered by AI creativity",
     category: "Creative Ads",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    video: "https://drive.google.com/file/d/1nWWKj6qYLclhepyKa0TQscJhxOGhm_B-/preview",
     thumbnail: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&h=450&fit=crop",
     duration: "0:45"
   },
   {
     id: 11,
-    title: "Fashion Brand Promo",
-    description: "Stunning AI-enhanced visuals for luxury fashion",
+    title: "Creative Ad 2",
+    description: "Engaging promotional content crafted with GenAI tools",
     category: "Creative Ads",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+    video: "https://drive.google.com/file/d/1N5S-xgDpArlUb8vwDvEGKRHdASiqXBjg/preview",
     thumbnail: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=800&h=450&fit=crop",
     duration: "1:00"
   },
   {
     id: 12,
-    title: "Energy Drink Commercial",
-    description: "High-energy social media ad with AI effects",
+    title: "Creative Ad 3",
+    description: "High-impact social media advertising (placeholder)",
     category: "Creative Ads",
     video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
     thumbnail: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=800&h=450&fit=crop",
@@ -118,8 +118,8 @@ export const creativeAds = [
   },
   {
     id: 13,
-    title: "App Launch Teaser",
-    description: "Engaging mobile app promotion with AI visuals",
+    title: "Creative Ad 4",
+    description: "Brand storytelling through AI (placeholder)",
     category: "Creative Ads",
     video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
     thumbnail: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
@@ -127,8 +127,8 @@ export const creativeAds = [
   },
   {
     id: 14,
-    title: "E-commerce Brand Story",
-    description: "Compelling brand narrative using GenAI techniques",
+    title: "Creative Ad 5",
+    description: "Viral marketing content (placeholder)",
     category: "Creative Ads",
     video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     thumbnail: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=450&fit=crop",
