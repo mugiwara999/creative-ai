@@ -125,7 +125,7 @@ export const creativeAds = [
     description: "Dynamic marketing content powered by AI creativity",
     category: "Creative Ads",
     video: "https://drive.google.com/file/d/1ZpkNGqLItffkctHBjPoOxrRLqlLcPQaK/preview",
-    thumbnail: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/w8m1k6j3_freepik_a-clean-ultrarealistic-hi_2744811610.png",
     duration: "0:45"
   },
   {
@@ -134,7 +134,7 @@ export const creativeAds = [
     description: "Engaging promotional content crafted with GenAI tools",
     category: "Creative Ads",
     video: "https://drive.google.com/file/d/1POIBt4PRUlk1tUxFq7AKoTFdxjVc1d2Q/preview",
-    thumbnail: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/9ggla0sv_freepik_a-cinematic-ultrarealisti_2744817065.png",
     duration: "1:00"
   },
   {
@@ -143,7 +143,7 @@ export const creativeAds = [
     description: "High-impact social media advertising that converts",
     category: "Creative Ads",
     video: "https://drive.google.com/file/d/1D-TEiYlXuNXt8L2-1-z_RWPigWFbYYXX/preview",
-    thumbnail: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/t4fkx68o_freepik_a-cinematic-ultrarealisti_2744825192.png",
     duration: "0:30"
   },
   {
@@ -152,7 +152,7 @@ export const creativeAds = [
     description: "Brand storytelling through AI-powered visuals",
     category: "Creative Ads",
     video: "https://drive.google.com/file/d/1BC_4Dla6UAYSJYmS_B0vfxB80b0UdDN5/preview",
-    thumbnail: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/gc2dax67_freepik_a-cinematic-ultrarealisti_2744827595.png",
     duration: "0:50"
   },
   {
@@ -161,7 +161,7 @@ export const creativeAds = [
     description: "Viral marketing content designed for maximum engagement",
     category: "Creative Ads",
     video: "https://drive.google.com/file/d/1YKI0e7lWKCYrCoIY0w9TiZpiADNKaEJx/preview",
-    thumbnail: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/0rywvnme_freepik_a-cinematic-ultrarealisti_2744833676.png",
     duration: "1:15"
   }
 ];
