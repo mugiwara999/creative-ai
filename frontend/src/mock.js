@@ -94,7 +94,7 @@ export const creativeAds = [
     title: "Creative Ad 1",
     description: "Dynamic marketing content powered by AI creativity",
     category: "Creative Ads",
-    video: "https://drive.google.com/file/d/1nWWKj6qYLclhepyKa0TQscJhxOGhm_B-/preview",
+    video: "https://drive.google.com/file/d/1ZpkNGqLItffkctHBjPoOxrRLqlLcPQaK/preview",
     thumbnail: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&h=450&fit=crop",
     duration: "0:45"
   },
@@ -103,34 +103,34 @@ export const creativeAds = [
     title: "Creative Ad 2",
     description: "Engaging promotional content crafted with GenAI tools",
     category: "Creative Ads",
-    video: "https://drive.google.com/file/d/1N5S-xgDpArlUb8vwDvEGKRHdASiqXBjg/preview",
+    video: "https://drive.google.com/file/d/1POIBt4PRUlk1tUxFq7AKoTFdxjVc1d2Q/preview",
     thumbnail: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=800&h=450&fit=crop",
     duration: "1:00"
   },
   {
     id: 12,
     title: "Creative Ad 3",
-    description: "High-impact social media advertising (placeholder)",
+    description: "High-impact social media advertising that converts",
     category: "Creative Ads",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+    video: "https://drive.google.com/file/d/1D-TEiYlXuNXt8L2-1-z_RWPigWFbYYXX/preview",
     thumbnail: "https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=800&h=450&fit=crop",
     duration: "0:30"
   },
   {
     id: 13,
     title: "Creative Ad 4",
-    description: "Brand storytelling through AI (placeholder)",
+    description: "Brand storytelling through AI-powered visuals",
     category: "Creative Ads",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+    video: "https://drive.google.com/file/d/1BC_4Dla6UAYSJYmS_B0vfxB80b0UdDN5/preview",
     thumbnail: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=450&fit=crop",
     duration: "0:50"
   },
   {
     id: 14,
     title: "Creative Ad 5",
-    description: "Viral marketing content (placeholder)",
+    description: "Viral marketing content designed for maximum engagement",
     category: "Creative Ads",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    video: "https://drive.google.com/file/d/1YKI0e7lWKCYrCoIY0w9TiZpiADNKaEJx/preview",
     thumbnail: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=450&fit=crop",
     duration: "1:15"
   }
