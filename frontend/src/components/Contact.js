@@ -60,21 +60,29 @@ const Contact = () => {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group">
+            <a 
+              href="mailto:thilakvarma003@gmail.com"
+              className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group cursor-pointer block"
+            >
               <div className="bg-[#BFFF00]/10 w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#BFFF00]/20 transition-colors">
                 <Mail className="text-[#BFFF00]" size={28} />
               </div>
               <h3 className="text-white font-bold text-xl mb-2">Email Me</h3>
-              <p className="text-white/60">contact@creativeai.studio</p>
-            </div>
+              <p className="text-white/60">thilakvarma003@gmail.com</p>
+            </a>
 
-            <div className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group">
+            <a
+              href="https://wa.me/919347041279"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-zinc-900/50 p-8 rounded-lg border border-[#BFFF00]/10 hover:border-[#BFFF00]/30 transition-all duration-300 group cursor-pointer block"
+            >
               <div className="bg-[#BFFF00]/10 w-14 h-14 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#BFFF00]/20 transition-colors">
                 <MessageSquare className="text-[#BFFF00]" size={28} />
               </div>
               <h3 className="text-white font-bold text-xl mb-2">Quick Chat</h3>
-              <p className="text-white/60">Available Mon-Fri, 9AM-6PM EST</p>
-            </div>
+              <p className="text-white/60">WhatsApp: +91 93470 41279</p>
+            </a>
           </div>
 
           <div className="bg-zinc-900/50 p-8 md:p-12 rounded-lg border border-[#BFFF00]/10">
