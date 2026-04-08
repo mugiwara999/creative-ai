@@ -55,7 +55,7 @@ export const featuredWorks = [
     description: "Stunning visuals crafted with next-gen AI technology",
     category: "Featured",
     video: "https://drive.google.com/file/d/1N5S-xgDpArlUb8vwDvEGKRHdASiqXBjg/preview",
-    thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/rt0c3j5f_freepik_a-cinematic-ultrarealisti_2744625978%20%281%29.png",
     duration: "3:45",
     tools: ["Runway", "Heygen", "Seedance"]
   }
@@ -113,7 +113,7 @@ export const cinematicWorks = [
     description: "Visual masterpiece crafted with AI technology",
     category: "Cinematic",
     video: "https://drive.google.com/file/d/1zFVSrqHduj8GVwNF2byxufYGCTcIkspV/preview",
-    thumbnail: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=450&fit=crop",
+    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/na26d6w2_freepik_a-cinematic-ultrarealisti_2744752979.png",
     duration: "4:20"
   }
 ];
