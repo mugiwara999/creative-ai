@@ -17,13 +17,14 @@ const About = () => {
       { threshold: 0.3 }
     );
 
-    if (statsRef.current) {
-      observer.observe(statsRef.current);
+    const node = statsRef.current;
+    if (node) {
+      observer.observe(node);
     }
 
     return () => {
-      if (statsRef.current) {
-        observer.unobserve(statsRef.current);
+      if (node) {
+        observer.unobserve(node);
       }
     };
   }, [isVisible]);
