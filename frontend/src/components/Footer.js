@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/thilakvarma/', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/creovia-studio', label: 'LinkedIn' },
     { icon: Instagram, href: 'https://www.instagram.com/alwaysthilakvarma?igsh=YXAwemp4YmZiczIw', label: 'Instagram' },
     { icon: Mail, href: 'mailto:thilakvarma003@gmail.com', label: 'Email' },
   ];

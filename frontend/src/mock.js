@@ -9,16 +9,16 @@ export const featuredWorks = [
     duration: "2:45",
     tools: ["Runway ML", "After Effects", "Premiere Pro"]
   },
-  {
-    id: 2,
-    title: "Featured Project 2",
-    description: "Cutting-edge visual storytelling through generative AI",
-    category: "Featured",
-    video: "https://drive.google.com/file/d/1fFyWRxIld67q9v4eFhYo90vWS9gOrxyc/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/45vd62ou_freepik_a-cinematic-ultrarealisti_2744598141.png",
-    duration: "3:20",
-    tools: ["Midjourney", "DaVinci Resolve", "Stable Diffusion"]
-  },
+  // {
+  //   id: 2,
+  //   title: "Featured Project 2",
+  //   description: "Cutting-edge visual storytelling through generative AI",
+  //   category: "Featured",
+  //   video: "https://drive.google.com/file/d/1fFyWRxIld67q9v4eFhYo90vWS9gOrxyc/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/45vd62ou_freepik_a-cinematic-ultrarealisti_2744598141.png",
+  //   duration: "3:20",
+  //   tools: ["Midjourney", "DaVinci Resolve", "Stable Diffusion"]
+  // },
   {
     id: 3,
     title: "Featured Project 3",
@@ -29,48 +29,48 @@ export const featuredWorks = [
     duration: "4:15",
     tools: ["Sora", "Premiere Pro", "Topaz AI"]
   },
-  {
-    id: 4,
-    title: "Featured Project 4",
-    description: "Innovative storytelling powered by artificial intelligence",
-    category: "Featured",
-    video: "https://drive.google.com/file/d/1nWWKj6qYLclhepyKa0TQscJhxOGhm_B-/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/0r1nvnzl_freepik_an-ultrarealistic-cinemat_2744602079.png",
-    duration: "3:00",
-    tools: ["Kling AI", "Premiere Pro", "GenAI"]
-  },
-  {
-    id: 5,
-    title: "Featured Project 5",
-    description: "Creative mastery through AI-driven visual effects",
-    category: "Featured",
-    video: "https://drive.google.com/file/d/1EcNxPMWA8OCEqWb4zzgyLeDYCBMa4xfJ/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/gjxa30gb_freepik_a-cinematic-ultrarealisti_2744612582.png",
-    duration: "2:30",
-    tools: ["Pika Labs", "After Effects", "VEO"]
-  },
-  {
-    id: 6,
-    title: "Featured Project 6",
-    description: "Stunning visuals crafted with next-gen AI technology",
-    category: "Featured",
-    video: "https://drive.google.com/file/d/1N5S-xgDpArlUb8vwDvEGKRHdASiqXBjg/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/rt0c3j5f_freepik_a-cinematic-ultrarealisti_2744625978%20%281%29.png",
-    duration: "3:45",
-    tools: ["Runway", "Heygen", "Seedance"]
-  }
+  // {
+  //   id: 4,
+  //   title: "Featured Project 4",
+  //   description: "Innovative storytelling powered by artificial intelligence",
+  //   category: "Featured",
+  //   video: "https://drive.google.com/file/d/1nWWKj6qYLclhepyKa0TQscJhxOGhm_B-/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/0r1nvnzl_freepik_an-ultrarealistic-cinemat_2744602079.png",
+  //   duration: "3:00",
+  //   tools: ["Kling AI", "Premiere Pro", "GenAI"]
+  // },
+  // {
+  //   id: 5,
+  //   title: "Featured Project 5",
+  //   description: "Creative mastery through AI-driven visual effects",
+  //   category: "Featured",
+  //   video: "https://drive.google.com/file/d/1EcNxPMWA8OCEqWb4zzgyLeDYCBMa4xfJ/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/gjxa30gb_freepik_a-cinematic-ultrarealisti_2744612582.png",
+  //   duration: "2:30",
+  //   tools: ["Pika Labs", "After Effects", "VEO"]
+  // },
+  // {
+  //   id: 6,
+  //   title: "Featured Project 6",
+  //   description: "Stunning visuals crafted with next-gen AI technology",
+  //   category: "Featured",
+  //   video: "https://drive.google.com/file/d/1N5S-xgDpArlUb8vwDvEGKRHdASiqXBjg/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/rt0c3j5f_freepik_a-cinematic-ultrarealisti_2744625978%20%281%29.png",
+  //   duration: "3:45",
+  //   tools: ["Runway", "Heygen", "Seedance"]
+  // }
 ];
 
 export const cinematicWorks = [
-  {
-    id: 4,
-    title: "Cinematic Project 1",
-    description: "A captivating visual story powered by AI creativity",
-    category: "Cinematic",
-    video: "https://drive.google.com/file/d/1oOrkwgWzAUigJz1zSXWyGCyWnzyUqB0l/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/cay8i7ln_freepik_a-cinematic-ultrarealisti_2744727206.png",
-    duration: "5:30"
-  },
+  // {
+  //   id: 4,
+  //   title: "Cinematic Project 1",
+  //   description: "A captivating visual story powered by AI creativity",
+  //   category: "Cinematic",
+  //   video: "https://drive.google.com/file/d/1oOrkwgWzAUigJz1zSXWyGCyWnzyUqB0l/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/cay8i7ln_freepik_a-cinematic-ultrarealisti_2744727206.png",
+  //   duration: "5:30"
+  // },
   {
     id: 5,
     title: "Cinematic Project 2",
@@ -98,15 +98,15 @@ export const cinematicWorks = [
     thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/5r01czce_freepik_a-cinematic-ultrarealisti_2744739154.png",
     duration: "3:45"
   },
-  {
-    id: 8,
-    title: "Cinematic Project 5",
-    description: "Innovative storytelling through generative AI",
-    category: "Cinematic",
-    video: "https://drive.google.com/file/d/1Kswv4vaUeaze2kwb8H48eXmgsKi9cbn9/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/hazbgrxn_freepik_a-cinematic-ultrarealisti_2744741239.png",
-    duration: "5:00"
-  },
+  // {
+  //   id: 8,
+  //   title: "Cinematic Project 5",
+  //   description: "Innovative storytelling through generative AI",
+  //   category: "Cinematic",
+  //   video: "https://drive.google.com/file/d/1Kswv4vaUeaze2kwb8H48eXmgsKi9cbn9/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/hazbgrxn_freepik_a-cinematic-ultrarealisti_2744741239.png",
+  //   duration: "5:00"
+  // },
   {
     id: 9,
     title: "Cinematic Project 6",
@@ -119,15 +119,15 @@ export const cinematicWorks = [
 ];
 
 export const creativeAds = [
-  {
-    id: 10,
-    title: "Creative Ad 1",
-    description: "Dynamic marketing content powered by AI creativity",
-    category: "Creative Ads",
-    video: "https://drive.google.com/file/d/1ZpkNGqLItffkctHBjPoOxrRLqlLcPQaK/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/w8m1k6j3_freepik_a-clean-ultrarealistic-hi_2744811610.png",
-    duration: "0:45"
-  },
+  // {
+  //   id: 10,
+  //   title: "Creative Ad 1",
+  //   description: "Dynamic marketing content powered by AI creativity",
+  //   category: "Creative Ads",
+  //   video: "https://drive.google.com/file/d/1ZpkNGqLItffkctHBjPoOxrRLqlLcPQaK/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/w8m1k6j3_freepik_a-clean-ultrarealistic-hi_2744811610.png",
+  //   duration: "0:45"
+  // },
   {
     id: 11,
     title: "Creative Ad 2",
@@ -146,15 +146,15 @@ export const creativeAds = [
     thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/t4fkx68o_freepik_a-cinematic-ultrarealisti_2744825192.png",
     duration: "0:30"
   },
-  {
-    id: 13,
-    title: "Creative Ad 4",
-    description: "Brand storytelling through AI-powered visuals",
-    category: "Creative Ads",
-    video: "https://drive.google.com/file/d/1BC_4Dla6UAYSJYmS_B0vfxB80b0UdDN5/preview",
-    thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/gc2dax67_freepik_a-cinematic-ultrarealisti_2744827595.png",
-    duration: "0:50"
-  },
+  // {
+  //   id: 13,
+  //   title: "Creative Ad 4",
+  //   description: "Brand storytelling through AI-powered visuals",
+  //   category: "Creative Ads",
+  //   video: "https://drive.google.com/file/d/1BC_4Dla6UAYSJYmS_B0vfxB80b0UdDN5/preview",
+  //   thumbnail: "https://customer-assets.emergentagent.com/job_neural-gallery-3/artifacts/gc2dax67_freepik_a-cinematic-ultrarealisti_2744827595.png",
+  //   duration: "0:50"
+  // },
   {
     id: 14,
     title: "Creative Ad 5",
